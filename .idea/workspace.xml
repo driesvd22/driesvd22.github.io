@@ -12,6 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e0e378b8-4ea3-4a14-b60c-d9004b4454ed" name="Default Changelist" comment="Navbar Basics&#10;JS &amp; JQUERY added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,7 +60,7 @@
       <workItem from="1596541438570" duration="925000" />
       <workItem from="1597066020507" duration="1206000" />
       <workItem from="1597136991636" duration="3000" />
-      <workItem from="1597218592403" duration="6133000" />
+      <workItem from="1597218592403" duration="8412000" />
     </task>
     <task id="LOCAL-00001" summary="index">
       <created>1596541501142</created>
@@ -122,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597224063522</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Navbar Basics&#10;JS &amp; JQUERY added">
+      <created>1597244995887</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597244995887</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +166,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="441" y="312" key="#Web_Browsers/0.0.2560.1040/2560.0.1920.1080@0.0.2560.1040" timestamp="1597221701980" />
+    <state x="1038" y="389" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1597245061418">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1038" y="389" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1040/2560.0.1920.1080@0.0.2560.1040" timestamp="1597245061418" />
     <state x="424" y="278" key="FileChooserDialogImpl" timestamp="1597221700292">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
