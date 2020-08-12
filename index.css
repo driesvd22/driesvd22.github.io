@@ -1,120 +1,57 @@
-/* NAVBAR */
-/*Navigation Variables*/
-
-.navigation {
-    height: 70px;
-    background: white;
-}
-
-.nav-container {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-
-nav {
-    float: none;
-    align-content: center;
-}
-nav > ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-nav > ul > li {
-    float: left;
+/* Add a black background color to the top navigation */
+.topnav {
     position: relative;
-}
-nav > ul > li > a:visited {
-    display: block;
-    padding: 0 20px;
-    line-height: 70px;
-    background: white;
-    color: black;
-    text-decoration: none;
-}
-nav > ul > li > a:hover {
-     background: white;
-     color: black;
-}
-nav > ul > li > a:not(:only-child):after {
-     padding-left: 4px;
-     content: ' ▾';
-}
-.nav-mobile {
-    display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: white;
-    height: 70px;
-    width: 70px;
+    background-color: #333;
+    overflow: hidden;
 }
 
-@media only screen and (max-width: 798px) {
-    .nav-mobile {
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+    float: right;
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+        float: none;
         display: block;
     }
-    nav {
-        width: 100%;
-        padding: 70px 0 15px;
-    }
-    nav > ul {
-        display: none;
-    }
-    nav > ul > li {
-        float: none;
-    }
-    nav > ul > li > a {
-        padding: 15px;
-        line-height: 20px;
-    }
-    ul > li > a {
-        padding-left: 30px;
-    }
-}
 
-@media screen and (min-width: 799px) {
-    .nav-list {
-        display: block !important;
+    .topnav-centered a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
     }
 }
-#nav-toggle {
-    position: absolute;
-    left: 18px;
-    top: 22px;
-    cursor: pointer;
-    padding: 10px 35px 16px 0;
-}
-#nav-toggle > span,
-#nav-toggle > span:before,
-#nav-toggle > span:after {
-    cursor: pointer;
-    border-radius: 1px;
-    height: 5px;
-    width: 35px;
-    background: black;
-    position: absolute;
-    display: block;
-    content: '';
-    transition: all 300ms ease-in-out;
-}
-span:before {
-    top: -10px;
-}
-span:after {
-    bottom: -10px;
-}
-#nav-toggle.active span {
-     background-color: transparent;
-}
-#nav-toggle.active span:before,
-#nav-toggle.active span:after {
-     top: 0;
- }
-#nav-toggle.active span:before {
-     transform: rotate(45deg);
- }
-#nav-toggle.active span:after {
-     transform: rotate(-45deg);
- }
