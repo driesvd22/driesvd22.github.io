@@ -10,7 +10,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0e378b8-4ea3-4a14-b60c-d9004b4454ed" name="Default Changelist" comment="Navbar Basics&#10;JS &amp; JQUERY added">
+    <list default="true" id="e0e378b8-4ea3-4a14-b60c-d9004b4454ed" name="Default Changelist" comment="Navbar&#10;Tweak mediaquery">
+      <change afterPath="$PROJECT_DIR$/Logo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -49,6 +50,11 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dries\WebstormProjects\driesvd22.github.io" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +66,8 @@
       <workItem from="1596541438570" duration="925000" />
       <workItem from="1597066020507" duration="1206000" />
       <workItem from="1597136991636" duration="3000" />
-      <workItem from="1597218592403" duration="8412000" />
+      <workItem from="1597218592403" duration="9081000" />
+      <workItem from="1597942128647" duration="7440000" />
     </task>
     <task id="LOCAL-00001" summary="index">
       <created>1596541501142</created>
@@ -132,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597244995887</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Navbar&#10;Tweak mediaquery">
+      <created>1597265161699</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1597265161699</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +169,9 @@
     <MESSAGE value="title" />
     <MESSAGE value="CSS test" />
     <MESSAGE value="Navbar Basics&#10;JS &amp; JQUERY added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navbar Basics&#10;JS &amp; JQUERY added" />
+    <MESSAGE value="Navbar&#10;Tweak mediaquery" />
+    <MESSAGE value="Navbar standaard&#10;Tweaks menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Navbar standaard&#10;Tweaks menu" />
   </component>
   <component name="WindowStateProjectService">
     <state x="270" y="201" key="#Inspections" timestamp="1597223459321">
@@ -174,14 +190,19 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="424" y="278" key="FileChooserDialogImpl/0.0.2560.1040/2560.0.1920.1080@0.0.2560.1040" timestamp="1597221700292" />
-    <state x="239" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597224071661">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1597945223047">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="239" y="252" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1920.1080@0.0.2560.1040" timestamp="1597224071661" />
+    <state width="498" height="446" key="SwitcherDM/0.0.2560.1040/2560.0.1920.1080@0.0.2560.1040" timestamp="1597945223047" />
+    <state x="239" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597267093296">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="239" y="252" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1920.1080@0.0.2560.1040" timestamp="1597267093296" />
     <state x="239" y="252" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1596542181030" />
-    <state x="464" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596541791095">
+    <state x="464" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597956603957">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
+    <state x="464" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040/2560.0.1920.1080@0.0.2560.1040" timestamp="1597956603957" />
     <state x="464" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1596541791095" />
   </component>
 </project>
