@@ -55,7 +55,7 @@
         transition: 0.5s;
     }
 
-@media only screen and (max-width: 799px) {
+@media only screen and (device-width: 799px) {
 
     .topnav{
         display: none;
