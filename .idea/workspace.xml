@@ -11,10 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0e378b8-4ea3-4a14-b60c-d9004b4454ed" name="Default Changelist" comment="Navbar&#10;Tweak mediaquery">
-      <change afterPath="$PROJECT_DIR$/yd_container.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
       <workItem from="1597136991636" duration="3000" />
       <workItem from="1597218592403" duration="9081000" />
       <workItem from="1597942128647" duration="7585000" />
-      <workItem from="1598291474418" duration="1946000" />
+      <workItem from="1598291474418" duration="2047000" />
     </task>
     <task id="LOCAL-00001" summary="index">
       <created>1596541501142</created>
@@ -175,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598292435589</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Navbar&#10;Tweak mediaquery">
+      <created>1598293454394</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1598293454394</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,10 +203,10 @@
     <MESSAGE value="title" />
     <MESSAGE value="CSS test" />
     <MESSAGE value="Navbar Basics&#10;JS &amp; JQUERY added" />
-    <MESSAGE value="Navbar&#10;Tweak mediaquery" />
     <MESSAGE value="Navbar standaard&#10;Tweaks menu" />
     <MESSAGE value="change" />
-    <option name="LAST_COMMIT_MESSAGE" value="change" />
+    <MESSAGE value="Navbar&#10;Tweak mediaquery" />
+    <option name="LAST_COMMIT_MESSAGE" value="Navbar&#10;Tweak mediaquery" />
   </component>
   <component name="WindowStateProjectService">
     <state x="270" y="201" key="#Inspections" timestamp="1597223459321">
@@ -224,15 +229,15 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.2560.1040/2560.0.1920.1080@0.0.2560.1040" timestamp="1597945223047" />
-    <state x="239" y="252" key="Vcs.Push.Dialog.v2" timestamp="1598292436919">
+    <state x="239" y="252" key="Vcs.Push.Dialog.v2" timestamp="1598293456392">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="239" y="252" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1920.1080@0.0.2560.1040" timestamp="1598292436919" />
+    <state x="239" y="252" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1920.1080@0.0.2560.1040" timestamp="1598293456392" />
     <state x="239" y="252" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1596542181030" />
-    <state x="464" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597956603957">
+    <state x="464" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598293440559">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="464" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040/2560.0.1920.1080@0.0.2560.1040" timestamp="1597956603957" />
+    <state x="464" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040/2560.0.1920.1080@0.0.2560.1040" timestamp="1598293440559" />
     <state x="464" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1596541791095" />
   </component>
 </project>
