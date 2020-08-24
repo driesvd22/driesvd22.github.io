@@ -11,6 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0e378b8-4ea3-4a14-b60c-d9004b4454ed" name="Default Changelist" comment="Navbar&#10;Tweak mediaquery">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +67,7 @@
       <workItem from="1597136991636" duration="3000" />
       <workItem from="1597218592403" duration="9081000" />
       <workItem from="1597942128647" duration="7585000" />
-      <workItem from="1598291474418" duration="4573000" />
+      <workItem from="1598291474418" duration="6317000" />
     </task>
     <task id="LOCAL-00001" summary="index">
       <created>1596541501142</created>
@@ -193,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598295904351</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Navbar&#10;Tweak mediaquery">
+      <created>1598296108748</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1598296108748</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,10 +251,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.2560.1040/2560.0.1920.1080@0.0.2560.1040" timestamp="1597945223047" />
-    <state x="239" y="252" key="Vcs.Push.Dialog.v2" timestamp="1598295906700">
+    <state x="239" y="252" key="Vcs.Push.Dialog.v2" timestamp="1598296110310">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="239" y="252" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1920.1080@0.0.2560.1040" timestamp="1598295906700" />
+    <state x="239" y="252" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1920.1080@0.0.2560.1040" timestamp="1598296110310" />
     <state x="239" y="252" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1596542181030" />
     <state x="464" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598293440559">
       <screen x="0" y="0" width="2560" height="1040" />
