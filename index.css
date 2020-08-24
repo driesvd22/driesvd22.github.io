@@ -44,13 +44,39 @@
     .container{
         width: 100%;
         position: absolute;
-        margin-top: 220px;
+        margin-top: 200px;
     }
 
     .container div{
         margin: 0 auto;
+    }
+
+    .welkom{
         width: 75%;
     }
+
+    .foto_welkom{
+        float: left;
+        width: 50%;
+    }
+    .foto_welkom img {
+        margin-top: 30px;
+        margin-bottom: -30px;
+        width: 48%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .tekst_welkom{
+        float: right;
+        width: 48%;
+        font-size: 22px;
+        font-family: Calibri, sans-serif;
+        text-align: justify;
+    }
+    .tekst_welkom p{
+    }
+
 
     .menu{
         margin: 0;
@@ -64,7 +90,6 @@
         z-index: 1;
         transition: 0.5s;
     }
-
 
 @media only screen and (max-device-width: 800px) {
 
@@ -83,6 +108,7 @@
             color: #262626;
             font-size: 24px;
             cursor: pointer;
+            zoom: 250%;
         }
 
 
@@ -103,7 +129,7 @@
             padding: 10px;
             display: inline-block;
             font-family: verdana, serif;
-            font-size: 2em;
+            font-size: 4em;
             text-decoration: none;
             text-transform: uppercase;
             color: #FFFFFF;
