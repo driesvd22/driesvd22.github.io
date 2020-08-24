@@ -212,6 +212,7 @@
         color: #262626;
         font-size: 24px;
         cursor: pointer;
+        zoom: 250%;
     }
 
 
@@ -232,7 +233,7 @@
         padding: 10px;
         display: inline-block;
         font-family: verdana, serif;
-        font-size: 2em;
+        font-size: 4em;
         text-decoration: none;
         text-transform: uppercase;
         color: #FFFFFF;
