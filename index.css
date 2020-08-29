@@ -4,25 +4,25 @@
         background-color: white;
         overflow: hidden;
         text-align: center;
-        padding: 20px;
         width: 80%;
         margin-left: 8.5%;
-        -webkit-box-shadow: 0 0 8px 3px rgba(0,0,0,0.75);
-        -moz-box-shadow: 0 0 8px 3px rgba(0,0,0,0.75);
-        box-shadow: 0 0 8px 3px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0 0 8px 5px rgba(0,0,0,0.9);
+        -moz-box-shadow: 0 0 8px 5px rgba(0,0,0,0.9);
+        box-shadow: 0 0 8px 5px rgba(0,0,0,0.9);
     }
 
     /* Style the links inside the navigation bar */
     .topnav a img{
         height: auto;
         width: auto;
-        max-height: 110px;
-        max-width: 110px;
+        max-height: 150px;
+        max-width: 150px;
         vertical-align: middle;
+        border: 1px solid black;
     }
     .topnav a {
         color: black;
-        padding: 0 3.2%;
+        padding: 0 2.6%;
         text-decoration: none;
         font-size: 27px;
         font-family: Calibri, sans-serif;
@@ -45,6 +45,7 @@
         width: 100%;
         position: absolute;
         margin-top: 200px;
+        min-height: 100vh;
     }
 
     .container div{
@@ -89,24 +90,24 @@
     }
 
     .slideshow{
-        width: 75%;
+        width: 50%;
+        height: auto;
         margin-top: 150px;
     }
     .fotos{
         margin: 0 auto;
         float: left;
-        width: 100%;
+        width: 50%;
     }
     .fotos img{
-        display: flex;
+        width: auto;
+        height: auto;
         justify-content: center;
         align-items: center;
-
     }
 
 
     .photo {
-        position: absolute;
         animation: round 16s infinite;
         opacity: 0;
     }
@@ -145,16 +146,39 @@
         animation-delay: 0s;
     }
 
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding-top: 10px;
+        font-size: 16px;
+        height: auto;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    .footer a{
+        text-decoration: none;
+        color: white;
+    }
+    .footer i {
+        padding: 30px 30px 5px 30px;
+        font-size: 80px;
+    }
 
 
 @media only screen and (max-device-width: 800px) {
+
+        body::-webkit-scrollbar {
+            display: none;
+        }
 
         .topnav{
             display: none;
         }
 
         .toggle{
-            position: fixed;
+            position: absolute;
             top: 40px;
             left: 40px;
             z-index: 2
@@ -195,7 +219,7 @@
         }
         .menu.active{
             left: 0;
-            overflow: auto;
+            overflow: hidden;
         }
 
 
@@ -253,12 +277,16 @@
     }
 @media only screen and (max-width: 800px) {
 
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
     .topnav{
         display: none;
     }
 
     .toggle{
-        position: fixed;
+        position: absolute;
         top: 40px;
         left: 40px;
         z-index: 2
@@ -299,7 +327,7 @@
     }
     .menu.active{
         left: 0;
-        overflow: auto;
+        overflow: hidden;
     }
 
 
