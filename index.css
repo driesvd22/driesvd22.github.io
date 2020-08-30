@@ -1,3 +1,6 @@
+    html::-webkit-scrollbar {
+        display: none;
+    }
 
     .topnav {
         position: absolute;
@@ -7,9 +10,8 @@
         width: 80%;
         margin-left: 8.5%;
         border: 1px solid black;
-
+        border-top: none;
     }
-
     /* Style the links inside the navigation bar */
     .topnav a img{
         height: auto;
@@ -20,16 +22,16 @@
     }
     .topnav a {
         color: black;
-        padding: 0 2.6%;
+        padding: 0 2.5%;
         text-decoration: none;
-        font-size: 27px;
+        font-size: 25px;
         font-family: Calibri, sans-serif;
     }
 
 
     /* Change the color of links on hover */
     .topnav a:hover {
-        color: black;
+        text-decoration: underline black;
     }
 
    /* Hamburger menu */
@@ -57,14 +59,24 @@
     .foto_welkom{
         float: left;
         width: 50%;
+        height: 100%;
     }
     .foto_welkom img {
-        margin-top: 30px;
-        margin-bottom: -30px;
-        width: 48%;
-        height: auto;
-        border-radius: 20px;
+        margin-top: 20px;
+        margin-bottom: -20px;
+        max-height: 200px;
+        padding: 10px;
     }
+
+    .foto_welkom .portrait{
+        width: 42%;
+        max-width: 250px;
+    }
+    .foto_welkom .landscape{
+        width: 56%;
+        max-width: 350px;
+    }
+
 
     .tekst_welkom{
         float: right;
@@ -83,7 +95,7 @@
         width: 100%;
         height: 100%;
         background: black;
-        z-index: 1;
+        z-index: 2;
         transition: 0.5s;
     }
 
@@ -123,21 +135,38 @@
     }
 
 
-@media only screen and (max-device-width: 800px) {
-
-        body::-webkit-scrollbar {
+@media only screen and (max-width: 800px) {
+    .html.active, .body.active{
+        margin: 0;
+        height: 100%;
+        overflow: hidden
+    }
+    body::-webkit-scrollbar {
             display: none;
+        }
+
+        .slideshow{
+            z-index: 1;
         }
 
         .topnav{
             display: none;
         }
 
+        .welkom{
+            width: 90%;
+        }
+    .tekst_welkom{
+        font-size: 15px;
+        font-family: Calibri, sans-serif;
+        text-align: justify;
+    }
+
         .toggle{
             position: absolute;
             top: 40px;
             left: 40px;
-            z-index: 2
+            z-index: 3
         }
         .toggle a{
             text-decoration: none;
@@ -223,10 +252,6 @@
             background: white;
         }
 
-        .link-menu.active span:before, .link-menu.active span:after {
-            top: 0;
-            background: white;
-        }
 
         #nav-toggle.active span:before {
             transform: rotate(45deg);
@@ -236,10 +261,20 @@
             transform: rotate(-45deg);
         }
     }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-device-width: 800px) {
+    .html.active, .body.active{
+        margin: 0;
+        height: 100%;
+        overflow: hidden
+    }
 
     body::-webkit-scrollbar {
-        display: none;
+        display:none;
+    }
+
+
+    .slideshow{
+        z-index: 1;
     }
 
     .topnav{
@@ -250,11 +285,16 @@
         width: 90%;
     }
 
+    .tekst_welkom{
+        font-size: 15px;
+        font-family: Calibri, sans-serif;
+        text-align: justify;
+    }
     .toggle{
         position: absolute;
         top: 40px;
         left: 40px;
-        z-index: 2
+        z-index: 3
     }
     .toggle a{
         text-decoration: none;
