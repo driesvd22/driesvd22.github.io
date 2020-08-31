@@ -124,6 +124,7 @@
         background-color: black;
         color: white;
         text-align: center;
+        z-index: 4;
     }
     .footer a{
         text-decoration: none;
