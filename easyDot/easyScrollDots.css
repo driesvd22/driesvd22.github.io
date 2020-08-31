@@ -28,6 +28,15 @@
     display: none;
   }
 }
+@media (max-device-width: 800px) {
+  .scroll-indicator-controller {
+    display: none;
+    right: 10px;
+  }
+  .scroll-indicator-controller > div span:after {
+    display: none;
+  }
+}
 .scroll-indicator-controller > div {
   width: 20px;
   height: 20px;
