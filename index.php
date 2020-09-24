@@ -20,8 +20,8 @@
     <ul>
         <li><a href="#home"  id="link-menu1">Home</a></li>
         <li><a href="#gallerij" id="link-menu2">Gallerij</a></li>
-        <li><a href="#Socials" id="link-menu3">Socials</a></li>
-        <li><a href="#Contact" id="link-menu4">Contact</a></li>
+        <li><a href="#contactLink" id="link-menu3">Contact</a></li>
+        <li><a href="#Socials" id="link-menu4">Socials</a></li>
     </ul>
 </div>
 <!-- Navbar -->
@@ -29,8 +29,9 @@
     <a href="#home">Home</a>
     <a href="#gallerij">Gallerij</a>
     <a href="#home"><img src="Pictures/Logo.jpg" alt="logo_YD"></a>
-    <a href="#Socials">Socials</a>
     <a href="#contactLink">Contact</a>
+    <a href="#Socials">Socials</a>
+
 
 </div>
 <div class="container">
@@ -93,16 +94,88 @@
             <div class="scroll-indicator" id="section03" data-scroll-indicator-title="Contact"></div>
         </div>
         <div class="form" id="contactLink">
-            <label for="fname">Voornaam</label>
-            <input type="text" id="fname" name="firstname" placeholder="Jouw voornaam...">
-            <label for="lname">Achternaam</label>
-            <input type="text" id="lname" name="lastname" placeholder="Jouw achternaam...">
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="Emailadres...">
-            <label for="subject">Onderwerp</label>
-            <textarea id="subject" name="subject" placeholder="Hier komt je vraag..." style="height:200px"></textarea>
-            <input type="button" value="Send Email" onclick="sendEmail()">
+            <form action="#" id="form" method="post" name="form">
+                <label for="fname">Voornaam</label>
+                <input type="text" id="fname" name="firstname" placeholder="Jouw voornaam..." value="" required>
+                <label for="lname">Achternaam</label>
+                <input type="text" id="lname" name="lastname" placeholder="Jouw achternaam..." value="" required>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Emailadres..." value="" required>
+                <label for="subject">Onderwerp</label>
+                <textarea id="subject" name="subject" placeholder="Hier komt je vraag..." style="height:200px" value="" required></textarea>
+                <input class="btnForm" id="send" name="submit" type="submit" value="Send Email">
+                <script>
+                    $(document).ready(function () {
+                        $('.btnForm').click(function (e) {
+                            e.preventDefault();
+                            var fname = $('#fname').val();
+                            var lname = $('#lname').val();
+                            var email = $('#email').val();
+                            var message = $('#subject').val();
+                            $.ajax
+                            ({
+                                type: "POST",
+                                url: "email.php",
+                                data: {"firstname":fname, "lastname":lname, "email":email, "subject":message},
+                                success: function (data) {
+                                    $('.result').html(data);
+                                    $('#contactform')[0].reset();
+                                }
+                            });
+                        });
+                    });
+                </script>
+                <h3 class="result"></h3>
+            </form>
+        </div>
+        <?php
+        // query the user media
+        $fields = "id,caption,media_type,media_url,permalink,thumbnail_url,timestamp,username";
+        $token = "IGQVJWTDJUQWhiN3RUbHpfV1hlQ1Q2bThxVXlsakFPQ1ZAmTmJieHZASZA0tFY29FbzZAoT1lobkFVeWVLM1ZAST0lXZAlJjczVJdHBfODFqVW1qNG80b1ZA0eDRxWjFIbHN0ZAkJHUWY5T3NMMnUzNktUeDFROQZDZD";
+        $limit = 10;
+
+        $json_feed_url="https://graph.instagram.com/me/media?fields={$fields}&access_token={$token}&limit={$limit}";
+        $json_feed = @file_get_contents($json_feed_url);
+        $contents = json_decode($json_feed, true, 512, JSON_BIGINT_AS_STRING);
+
+        echo "<div class='ig_feed_container'>";
+        foreach($contents["data"] as $post){
+
+            $username = isset($post["username"]) ? $post["username"] : "";
+            $caption = isset($post["caption"]) ? $post["caption"] : "";
+            $media_url = isset($post["media_url"]) ? $post["media_url"] : "";
+            $permalink = isset($post["permalink"]) ? $post["permalink"] : "";
+            $media_type = isset($post["media_type"]) ? $post["media_type"] : "";
+
+            echo "
+            <div class='ig_post_container'>
+                <div>";
+
+            if($media_type=="VIDEO"){
+                echo "<video controls style='width:100%; display: block !important;'>
+                            <source src='{$media_url}' type='video/mp4'>
+                            Your browser does not support the video tag.
+                        </video>";
+            }
+
+            else{
+                echo "<img src='{$media_url}' />";
+            }
+
+            echo "</div>
+                <div class='ig_post_details'>
+                    <div>
+                        <strong>@{$username}</strong> {$caption}
+                    </div>
+                    <div class='ig_view_link'>
+                        <a href='{$permalink}' target='_blank'>View on Instagram</a>
+                    </div>
+                </div>
             </div>
+        ";
+        }
+        echo "</div>"
+        ?>
     </div>
     <footer class="footer">
         <a href="https://www.facebook.com/ydbinnenhuis"><i class="fa fa-facebook" id="Socials"></i></a>
