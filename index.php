@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="W3/W3.css">
     <link rel="stylesheet" href="index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="index.js"></script>
     <title>YD binnenhuis</title>
 </head>
@@ -29,7 +30,7 @@
     <a href="#gallerij">Gallerij</a>
     <a href="#home"><img src="Pictures/Logo.jpg" alt="logo_YD"></a>
     <a href="#Socials">Socials</a>
-    <a href="#Contact">Contact</a>
+    <a href="#contactLink">Contact</a>
 
 </div>
 <div class="container">
@@ -61,9 +62,9 @@
         </div>
          <div class="fotos" id="gallerij">
              <img class='photo mySlides' src="Pictures/Slideshow1.jpg" alt="Image 1" />
-             <img class='photo mySlides' src="Pictures/Slideshow2.jpg" alt="Image 1" />
-             <img class='photo mySlides' src="Pictures/Slideshow3.jpg" alt="Image 1" />
-             <img class='photo mySlides' src="Pictures/Slideshow4.jpg" alt="Image 1" />
+             <img class='photo mySlides' src="Pictures/Slideshow2.jpg" alt="Image 2" />
+             <img class='photo mySlides' src="Pictures/Slideshow3.jpg" alt="Image 3" />
+             <img class='photo mySlides' src="Pictures/Slideshow4.jpg" alt="Image 4" />
              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
          </div>
@@ -87,6 +88,22 @@
             x[slideIndex-1].style.display = "block";
         }
     </script>
+    <div class="contact">
+        <div>
+            <div class="scroll-indicator" id="section03" data-scroll-indicator-title="Contact"></div>
+        </div>
+        <div class="form" id="contactLink">
+            <label for="fname">Voornaam</label>
+            <input type="text" id="fname" name="firstname" placeholder="Jouw voornaam...">
+            <label for="lname">Achternaam</label>
+            <input type="text" id="lname" name="lastname" placeholder="Jouw achternaam...">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Emailadres...">
+            <label for="subject">Onderwerp</label>
+            <textarea id="subject" name="subject" placeholder="Hier komt je vraag..." style="height:200px"></textarea>
+            <input type="button" value="Send Email" onclick="sendEmail()">
+            </div>
+    </div>
     <footer class="footer">
         <a href="https://www.facebook.com/ydbinnenhuis"><i class="fa fa-facebook" id="Socials"></i></a>
         <a href="https://www.instagram.com/ydbinnenhuis/"><i class="fa fa-instagram" id="Contact" ></i></a>

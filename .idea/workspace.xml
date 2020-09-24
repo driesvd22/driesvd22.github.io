@@ -11,13 +11,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0e378b8-4ea3-4a14-b60c-d9004b4454ed" name="Default Changelist" comment="TWeaks&#10;Structuur verandering">
+      <change afterPath="$PROJECT_DIR$/Pictures/Slideshow1/Slideshow1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pictures/Slideshow1/Slideshow2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pictures/Slideshow2/Slideshow1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pictures/Slideshow2/Slideshow2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easyDot/easyScrollDots.css" beforeDir="false" afterPath="$PROJECT_DIR$/easyDot/easyScrollDots.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,9 +51,47 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1294" />
+    <option name="height" value="1047" />
+  </component>
   <component name="ProjectId" id="1fdIF13X7oy43hamiTP1lS9zzUz" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="driesvd22.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="driesvd22.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,17 +103,39 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Pictures/Slideshow2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dries\WebstormProjects\driesvd22.github.io\Pictures\Slideshow2" />
+      <recent name="C:\Users\dries\WebstormProjects\driesvd22.github.io\Pictures\Slideshow1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dries\WebstormProjects\driesvd22.github.io\Pictures\Slideshow1" />
       <recent name="C:\Users\dries\WebstormProjects\driesvd22.github.io\Pictures" />
       <recent name="C:\Users\dries\WebstormProjects\driesvd22.github.io" />
       <recent name="C:\Users\dries\WebstormProjects\driesvd22.github.io\easyDot" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e0e378b8-4ea3-4a14-b60c-d9004b4454ed" name="Default Changelist" comment="" />
@@ -72,7 +152,9 @@
       <workItem from="1598707429930" duration="3935000" />
       <workItem from="1598778082596" duration="14530000" />
       <workItem from="1598850796776" duration="1502000" />
-      <workItem from="1598905251659" duration="13000" />
+      <workItem from="1598905251659" duration="36000" />
+      <workItem from="1600933846731" duration="40000" />
+      <workItem from="1600933946588" duration="3542000" />
     </task>
     <task id="LOCAL-00001" summary="index">
       <created>1596541501142</created>
@@ -249,23 +331,70 @@
       <option name="project" value="LOCAL" />
       <updated>1598851690494</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="x">
+      <created>1598905271580</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1598905271580</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="137000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959481" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="index" />
@@ -279,7 +408,8 @@
     <MESSAGE value="polishing van al gedane delen" />
     <MESSAGE value="TWeaks&#10;Structuur verandering" />
     <MESSAGE value="Tweak" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tweak" />
+    <MESSAGE value="x" />
+    <option name="LAST_COMMIT_MESSAGE" value="x" />
   </component>
   <component name="WindowStateProjectService">
     <state x="270" y="201" key="#Inspections" timestamp="1597223459321">
@@ -302,10 +432,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.2560.1040/2560.0.1920.1080@0.0.2560.1040" timestamp="1597945223047" />
-    <state x="239" y="252" key="Vcs.Push.Dialog.v2" timestamp="1598851697629">
+    <state x="239" y="252" key="Vcs.Push.Dialog.v2" timestamp="1598905285207">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="239" y="252" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1920.1080@0.0.2560.1040" timestamp="1598851697629" />
+    <state x="239" y="252" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1920.1080@0.0.2560.1040" timestamp="1598905285207" />
     <state x="239" y="252" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1596542181030" />
     <state x="92" y="92" width="2376" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598780055236">
       <screen x="0" y="0" width="2560" height="1040" />
@@ -328,5 +458,14 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="303" y="230" key="search.everywhere.popup/0.0.2560.1040/2560.0.1920.1080@0.0.2560.1040" timestamp="1598778460374" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
