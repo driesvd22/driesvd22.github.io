@@ -10,16 +10,25 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0e378b8-4ea3-4a14-b60c-d9004b4454ed" name="Default Changelist" comment="TWeaks&#10;Structuur verandering">
-      <change afterPath="$PROJECT_DIR$/email.php" afterDir="false" />
+    <list default="true" id="e0e378b8-4ea3-4a14-b60c-d9004b4454ed" name="Default Changelist" comment="Dropdown Slideshow&#10;Socials">
+      <change afterPath="$PROJECT_DIR$/Pictures/Slideshow/Dennis poort/88865-high-dynamic-range.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/Slideshow1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Pictures/Slideshow/Slideshow1/Slideshow1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/Slideshow1/Slideshow1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Pictures/Slideshow_std.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/Slideshow1/Slideshow2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Pictures/Slideshow/Slideshow1/Slideshow2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/Slideshow2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/Slideshow2/Slideshow1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/Slideshow2/Slideshow2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/Slideshow3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Pictures/Slideshow/Slideshow2/Slideshow3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures/Slideshow4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Pictures/Slideshow/Slideshow2/Slideshow4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easyDot/easyScrollDots.css" beforeDir="false" afterPath="$PROJECT_DIR$/easyDot/easyScrollDots.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,32 +36,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="136" column="51" lean-forward="true" selection-start-line="136" selection-start-column="32" selection-end-line="136" selection-end-column="51" />
+            <state relative-caret-position="142">
+              <caret line="157" column="90" selection-start-line="157" selection-start-column="90" selection-end-line="157" selection-end-column="90" />
               <folding>
-                <element signature="n#style#0;n#video#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#script#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#textarea#0;n#form#0;n#div#1;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6284#6290#0#HTML" expanded="true" />
+                <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="email.php" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+            <state relative-caret-position="306">
+              <caret line="18" column="45" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easyDot/easyScrollDots.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="447">
+              <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8">
+              <caret line="152" column="22" lean-forward="true" selection-start-line="152" selection-start-column="22" selection-end-line="152" selection-end-column="22" />
+              <folding>
+                <element signature="e#3506#6208#0" />
+                <element signature="e#6209#8543#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,6 +95,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>z-</find>
+      <find>z</find>
+      <find>z-inde</find>
+      <find>btnForm</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -77,20 +112,17 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/email.php" />
+        <option value="$PROJECT_DIR$/easyDot/easyScrollDots.css" />
+        <option value="$PROJECT_DIR$/index.css" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1294" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectId" id="1fdIF13X7oy43hamiTP1lS9zzUz" />
   <component name="ProjectLevelVcsManager">
@@ -101,18 +133,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="driesvd22.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="driesvd22.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="driesvd22.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="driesvd22.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="driesvd22.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="easyDot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="driesvd22.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="driesvd22.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="Pictures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="driesvd22.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="driesvd22.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="Pictures" type="462c0819:PsiDirectoryNode" />
+              <item name="Slideshow" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -125,21 +173,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Pictures/Slideshow/Dennis poort" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\dries\WebstormProjects\driesvd22.github.io\Pictures\Slideshow2" />
-      <recent name="C:\Users\dries\WebstormProjects\driesvd22.github.io\Pictures\Slideshow1" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\driesvd22.github.io\Pictures\Slideshow" />
+      <recent name="C:\wamp64\www\driesvd22.github.io\Pictures\Slideshow1" />
+      <recent name="C:\wamp64\www\driesvd22.github.io\Pictures\Slideshow2" />
       <recent name="C:\Users\dries\WebstormProjects\driesvd22.github.io\Pictures\Slideshow1" />
       <recent name="C:\Users\dries\WebstormProjects\driesvd22.github.io\Pictures" />
-      <recent name="C:\Users\dries\WebstormProjects\driesvd22.github.io" />
-      <recent name="C:\Users\dries\WebstormProjects\driesvd22.github.io\easyDot" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\driesvd22.github.io\Pictures\Slideshow\Dennis poort" />
+      <recent name="C:\wamp64\www\driesvd22.github.io\Pictures" />
+      <recent name="C:\Users\dries\WebstormProjects\driesvd22.github.io\Pictures\Slideshow2" />
+      <recent name="C:\Users\dries\WebstormProjects\driesvd22.github.io\Pictures\Slideshow1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -178,6 +229,8 @@
       <workItem from="1600933846731" duration="40000" />
       <workItem from="1600933946588" duration="3542000" />
       <workItem from="1600938871021" duration="2699000" />
+      <workItem from="1601566989324" duration="705000" />
+      <workItem from="1601622514272" duration="16963000" />
     </task>
     <task id="LOCAL-00001" summary="index">
       <created>1596541501142</created>
@@ -372,32 +425,32 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3082000" />
+    <option name="totallyTimeSpent" value="20750000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25364667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17114094" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32893288" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32893288" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,9 +476,20 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="index" />
@@ -440,7 +504,8 @@
     <MESSAGE value="Tweak" />
     <MESSAGE value="x" />
     <MESSAGE value="TWeaks&#10;Structuur verandering" />
-    <option name="LAST_COMMIT_MESSAGE" value="TWeaks&#10;Structuur verandering" />
+    <MESSAGE value="Dropdown Slideshow&#10;Socials" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dropdown Slideshow&#10;Socials" />
   </component>
   <component name="WindowStateProjectService">
     <state x="270" y="201" key="#Inspections" timestamp="1597223459321">
@@ -491,23 +556,6 @@
     <state x="303" y="230" key="search.everywhere.popup/0.0.2560.1040/2560.0.1920.1080@0.0.2560.1040" timestamp="1598778460374" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#video#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -515,19 +563,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Pictures/Logo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pictures/Slideshow/Slideshow1/Slideshow2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pictures/Slideshow/Slideshow2/Slideshow3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pictures/Slideshow/Slideshow2/Slideshow4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easyDot/easyScrollDots.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="306">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pictures/yd_container.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pictures/Slideshow/Slideshow1/Slideshow1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="152" column="22" lean-forward="true" selection-start-line="152" selection-start-column="22" selection-end-line="152" selection-end-column="22" />
+          <folding>
+            <element signature="e#3506#6208#0" />
+            <element signature="e#6209#8543#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="136" column="51" lean-forward="true" selection-start-line="136" selection-start-column="32" selection-end-line="136" selection-end-column="51" />
+        <state relative-caret-position="142">
+          <caret line="157" column="90" selection-start-line="157" selection-start-column="90" selection-end-line="157" selection-end-column="90" />
           <folding>
-            <element signature="n#style#0;n#video#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#textarea#0;n#form#0;n#div#1;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6284#6290#0#HTML" expanded="true" />
+            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>

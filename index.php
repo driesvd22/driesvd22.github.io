@@ -35,14 +35,14 @@
 
 </div>
 <div class="container">
-    <div>
-        <div class="scroll-indicator" id="section01" data-scroll-indicator-title="Home"></div>
-    </div>
     <div class="welkom" id="home">
+        <div>
+            <div class="scroll-indicator" id="section01" data-scroll-indicator-title="Home"></div>
+        </div>
         <div class="foto_welkom">
             <img class="portrait" src="Pictures/Logo.jpg" alt="Foto_YD">
-            <img class="landscape" src="Pictures/Slideshow1.jpg" alt="Foto_YD">
-            <img class="landscape" src="Pictures/Slideshow3.jpg" alt="Foto_YD">
+            <img class="landscape" src="Pictures/Slideshow/Slideshow1/Slideshow1.jpg" alt="Foto_YD">
+            <img class="landscape" src="Pictures/Slideshow/Slideshow2/Slideshow3.jpg" alt="Foto_YD">
             <img class="portrait" src="Pictures/yd_container.jpg" alt="Foto_YD">
         </div>
         <div class="tekst_welkom">
@@ -62,10 +62,29 @@
             <div class="scroll-indicator" id="section02" data-scroll-indicator-title="Gallerij"></div>
         </div>
          <div class="fotos" id="gallerij">
-             <img class='photo mySlides' src="Pictures/Slideshow1.jpg" alt="Image 1" />
-             <img class='photo mySlides' src="Pictures/Slideshow2.jpg" alt="Image 2" />
-             <img class='photo mySlides' src="Pictures/Slideshow3.jpg" alt="Image 3" />
-             <img class='photo mySlides' src="Pictures/Slideshow4.jpg" alt="Image 4" />
+             <form action="#gallerij" method="post">
+             <select class="w3-display-topleft dropdownSlideshow" onchange="this.form.submit()" name="slideshow">
+                 <option selected>--- Projecten ---</option>
+                 <?php
+                    $array = glob("Pictures/Slideshow/*", GLOB_ONLYDIR);
+                    foreach ($array as $a){
+                        ?><option <?php if (isset($_POST['slideshow']) && substr($a, 19) == $_POST['slideshow']){echo 'selected';} ?>><?php echo substr($a, 19);?></option><?php
+                    }
+                 ?>
+             </select>
+             </form>
+             <?php
+                if (isset($_POST['slideshow'])&& $_POST['slideshow'] != "--- Projecten ---"){
+                    $string = "./Pictures/Slideshow/".$_POST['slideshow'] ;
+                    $fotos = preg_grep('/^([^.])/', scandir($string));
+                    foreach ($fotos as $f){
+                        if ($f != "." || $f != ".."){
+                ?>
+             <img class='photo mySlides' src="<?php echo "./Pictures/Slideshow/".$_POST['slideshow']."/".$f ?>" alt="Image" />
+             <?php }}}else{
+                    ?>
+                    <img class='photo mySlides' src="Pictures/Slideshow_std.jpg" alt="Image" />
+                    <?php }?>
              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
          </div>
@@ -94,6 +113,7 @@
             <div class="scroll-indicator" id="section03" data-scroll-indicator-title="Contact"></div>
         </div>
         <div class="form" id="contactLink">
+            <h3>Contactformulier</h3>
             <form action="#" id="form" method="post" name="form">
                 <label for="fname">Voornaam</label>
                 <input type="text" id="fname" name="firstname" placeholder="Jouw voornaam..." value="" required>
@@ -102,7 +122,7 @@
                 <label for="email">Email</label>
                 <input type="text" id="email" name="email" placeholder="Emailadres..." value="" required>
                 <label for="subject">Onderwerp</label>
-                <textarea id="subject" name="subject" placeholder="Hier komt je vraag..." style="height:200px" value="" required></textarea>
+                <textarea id="subject" name="subject" placeholder="Hier komt je vraag..." style="height:200px" required></textarea>
                 <input class="btnForm" id="send" name="submit" type="submit" value="Send Email">
                 <script>
                     $(document).ready(function () {
@@ -128,59 +148,21 @@
                 <h3 class="result"></h3>
             </form>
         </div>
-        <?php
-        // query the user media
-        $fields = "id,caption,media_type,media_url,permalink,thumbnail_url,timestamp,username";
-        $token = "IGQVJWTDJUQWhiN3RUbHpfV1hlQ1Q2bThxVXlsakFPQ1ZAmTmJieHZASZA0tFY29FbzZAoT1lobkFVeWVLM1ZAST0lXZAlJjczVJdHBfODFqVW1qNG80b1ZA0eDRxWjFIbHN0ZAkJHUWY5T3NMMnUzNktUeDFROQZDZD";
-        $limit = 10;
-
-        $json_feed_url="https://graph.instagram.com/me/media?fields={$fields}&access_token={$token}&limit={$limit}";
-        $json_feed = @file_get_contents($json_feed_url);
-        $contents = json_decode($json_feed, true, 512, JSON_BIGINT_AS_STRING);
-
-        echo "<div class='ig_feed_container'>";
-        foreach($contents["data"] as $post){
-
-            $username = isset($post["username"]) ? $post["username"] : "";
-            $caption = isset($post["caption"]) ? $post["caption"] : "";
-            $media_url = isset($post["media_url"]) ? $post["media_url"] : "";
-            $permalink = isset($post["permalink"]) ? $post["permalink"] : "";
-            $media_type = isset($post["media_type"]) ? $post["media_type"] : "";
-
-            echo "
-            <div class='ig_post_container'>
-                <div>";
-
-            if($media_type=="VIDEO"){
-                echo "<video controls style='width:100%; display: block !important;'>
-                            <source src='{$media_url}' type='video/mp4'>
-                            Your browser does not support the video tag.
-                        </video>";
-            }
-
-            else{
-                echo "<img src='{$media_url}' />";
-            }
-
-            echo "</div>
-                <div class='ig_post_details'>
-                    <div>
-                        <strong>@{$username}</strong> {$caption}
-                    </div>
-                    <div class='ig_view_link'>
-                        <a href='{$permalink}' target='_blank'>View on Instagram</a>
-                    </div>
-                </div>
+    </div>
+    <div class="socials">
+        <div class="instagram">
+            <div>
+                <div class="scroll-indicator" id="section04" data-scroll-indicator-title="Socials"></div>
             </div>
-        ";
-        }
-        echo "</div>"
-        ?>
+            <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+            <iframe src="//lightwidget.com/widgets/26f077c184085651b9bec9fc01f2a9a0.html" allowtransparency="true"
+                    class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+        </div>
     </div>
     <footer class="footer">
         <a href="https://www.facebook.com/ydbinnenhuis"><i class="fa fa-facebook" id="Socials"></i></a>
         <a href="https://www.instagram.com/ydbinnenhuis/"><i class="fa fa-instagram" id="Contact" ></i></a>
-        <p>&copy; 2020 YD Binnenhuis</p>
+        <p>&copy;2020 YD Binnenhuis</p>
     </footer>
 </div>
 <script src="easyDot/easyScrollDots.js"></script>
